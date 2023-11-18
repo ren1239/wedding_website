@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-weight: 100;
+  box-sizing: border-box;
+}
+
+/* It is much easier with CSS and HTML only to use Parallax as a background URL instead 
+of an image in the HTML. This is due to the scrolling. Here you can set the repeat fixed
+to 100% */
+
+.parallax {
+  background: url("../Public/2JY07918_websize.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+.parallax-01 {
+  background: url("../Public/JY106514_websize.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+.parallax-02 {
+  background: url("../Public/A1_06654_websize.jpg") repeat fixed 100%;
+  background-size: cover;
+}
+
+.parallax-inner {
+  padding-top: 40%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 5rem;
+}
+
+body {
+  background-color: white;
+}
+
+.flow-text {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 10px 300px;
+}
