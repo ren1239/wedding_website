@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 100;
+  font-family: "Noto Serif", serif;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.parallax {
+  padding-top: 20%;
+  background: url("../Public/2JY07918_websize.jpg") repeat fixed 100%;
+  background-size: cover;
+  color: #f2f1ee;
+}
+
+.parallax-1 {
+  background: url("../Public/JY106514_websize.jpg") repeat fixed 100%;
+  background-size: cover;
+  color: #f2f1ee;
+}
+
+.parallax-2 {
+  background: url("../Public/A1_06659_websize.jpg") repeat fixed 100%;
+  background-size: cover;
+  color: #f2f1ee;
+}
+
+.parallax-inner {
+  padding-top: 20%;
+  padding-bottom: 30%;
+}
+
+body {
+  background-color: #f2f1ee;
+}
+.filler-text {
+  margin: 0px 150px;
+}
+
+.filler-text h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 30px 50px;
+}
+
+h3 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  color: #242424;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+nav {
+  height: 50px;
+  background-color: #e5e3dc;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  height: 50px;
+}
+header nav ul li a {
+  color: #242424;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%; /* Set the width to 100% to match the rest of the page */
+  background-color: #e5e3dc;
+  padding-top: 30px;
+}
+
+main .card {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+section.card > img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: 500px;
+  object-fit: cover;
+}
+
+section.card span {
+  text-align: center;
+  font-size: 1rem;
+  height: 4em; /* Set a fixed height for the span */
+  margin-top: 20px;
+  color: #242424;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  padding-bottom: 20px;
+  color: #242424;
+  overflow: hidden;
+}
+
+.circle {
+  object-fit: cover; /* Ensure the image covers the container */
+  border-radius: 50%; /* Create a circular shape */
+  overflow: hidden; /* Crop the excess content */
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a7bbbc;
+  text-align: center;
+  padding: 30px;
+}
+
+footer span {
+  padding-top: 6px;
+  font-size: 0.8em;
+  color: #f2f1ee;
+}
+
+.line {
+  width: 20px; /* Set the width of the line */
+  border: none; /* Remove default border */
+  border-top: 0.5px solid #242424; /* Add a 2px solid black border to the top */
+  margin: 5px 0; /* Adjust margin as needed */
+}
