@@ -1,0 +1,23 @@
+/* carousel.css */
+.carousel {
+  display: flex;
+  height: 600px; /* Adjust the height as needed */
+}
+
+.image {
+  flex: 1;
+  border: 2px solid white;
+  transition: flex 0.8s cubic-bezier(0.215, 0.61, 0.355, 1); /* Transition on flex property */
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.image > img {
+  width: 100%; /* Ensure the image fills the container horizontally */
+  height: 100%;
+  object-fit: cover; /* Center and crop the image to fit the container */
+}
+
+.expand {
+  flex: 0 0 800px; /* Set initial width for the first child */
+}
